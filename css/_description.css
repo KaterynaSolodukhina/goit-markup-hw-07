@@ -1,0 +1,21 @@
+.descripion {
+  padding-top: 120px;
+  padding-bottom: 0px;
+}
+.description-list {
+  display: flex;
+  gap: 24px;
+}
+.description-images {
+  padding: 24px 100px;
+  background: var(--backgraund-img);
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.description-title {
+  margin-bottom: 8px;
+}

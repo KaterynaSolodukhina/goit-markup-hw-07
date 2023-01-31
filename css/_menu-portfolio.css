@@ -1,0 +1,116 @@
+.menu {
+  background-color: var(--background-color);
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.menu-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+.menu-item {
+}
+
+.menu-btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
+  background-color: var(--backgraund-img);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  padding: 12px 24px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.menu-btn:hover,
+.menu-btn:focus {
+  color: #ffffff;
+  background-color: var(--color-hover);
+  border: color var(--color-hover);
+}
+
+.menu-portfolio {
+  margin-top: 72px;
+  width: calc((100-48px) / 3);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  background: var(--background-color);
+}
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  transform: translate(0, 100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: var(--backgraund-img);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 32px;
+  padding-right: 32px;
+  background-color: #4d5ae5;
+  background-blend-mode: soft-light;
+}
+.menu-img {
+  display: block;
+  max-width: 360px;
+  height: auto;
+  background: linear-gradient(
+      0deg,
+      rgba(77, 90, 229, 0.1),
+      rgba(77, 90, 229, 0.1)
+    ),
+    url(2105.w026.n002.440B.p0.440.jpg);
+  background-blend-mode: soft-light, normal;
+}
+.menu-img-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.menu-portfolio-link:hover .overlay,
+.menu-portfolio-link:focus .overlay {
+  transform: translate(0, 0);
+}
+
+.menu-portfolio-item {
+  max-width: 360px;
+  background: var(--background-color);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.menu-portfolio-link {
+  display: block;
+}
+.menu-portfolio-item:hover,
+.menu-portfolio-item:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.menu-title {
+  margin-bottom: 8px;
+}
+.menu-after-title {
+}
+.portfolio-card {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  border: 1px solid var(--accent-color);
+  border-top: none;
+}

@@ -1,0 +1,17 @@
+.about {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.about-title {
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.about-list {
+  display: flex;
+  gap: 24px;
+}
+.about-item {
+  width: calc((100-48px) / 3);
+}

@@ -1,0 +1,22 @@
+@media screen and (min-width: 1199px) {
+  .container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .header-contact {
+    display: block;
+  }
+  .customer-list {
+    gap: 24px;
+    display: flex;
+  }
+  .customer-item {
+    width: calc((100-120px) / 6);
+    gap: 24px;
+  }
+}

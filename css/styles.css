@@ -1,0 +1,135 @@
+@import "./_mobile.css";
+@import "./_tablet.css";
+@import "./_desc.css";
+@import "./_header.css";
+@import "./_hero.css";
+@import "./_hero-btn.css";
+@import "./_description.css";
+@import "./_about.css";
+@import "./_team.css";
+@import "./_social.css";
+@import "./_menu-portfolio.css";
+@import "./_customers.css";
+@import "./_footer.css";
+@import "./_modal.css";
+
+:root {
+  --accent-color: #e7e9fc;
+  --color-navigation: #4d5ae5;
+  --first-title-color: #2e2f42;
+  --background-color: #ffffff;
+  --background-heder: #ffffff;
+  --background-footer: #2e2f42;
+  --color-lik: #434455;
+  --color-contact: #434455;
+  --color-text: #434455;
+  --color-hover: #404bbf;
+  --backgraund-img: #f4f4fd;
+}
+.head-title-second {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--first-title-color);
+}
+.head-title-third {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
+  color: var(--first-title-color);
+}
+.logo-style-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(24 / 18);
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+}
+
+body {
+  color: #2e2f42;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+address {
+  font-style: normal;
+}
+button {
+  cursor: pointer;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration-line: none;
+}
+.container {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.section {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+/*------HERO-------*/
+
+/*------DESCRIPTION-------*/
+
+/*------ABOUT-------*/
+
+/*------TEAM-------*/
+
+/*------MENU-------*/
+
+/*--------CUSTOMERS-----*/
+
+/*------FOOTER-------*/
+
+/*--------MODAL--------*/
