@@ -1188,7 +1188,7 @@ img {
     flex-direction: column;
     align-items: baseline;
   }
-  .subscribe .head-title-third {
+  .subscribe {
     color: #ffffff;
     box-sizing: border-box;
     color: #ffffff;
@@ -1196,7 +1196,6 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 453px;
   }
 }
 
