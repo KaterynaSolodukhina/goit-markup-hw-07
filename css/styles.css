@@ -1302,6 +1302,9 @@ img {
     background-color: #404bbf;
     cursor: pointer;
   }
+  .subscribe {
+    align-items: baseline;
+  }
 }
 /*--------MODAL--------*/
 .backdrop {
