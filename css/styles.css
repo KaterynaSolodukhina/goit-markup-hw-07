@@ -1099,6 +1099,7 @@ img {
   flex-direction: column;
   align-items: center;
 }
+
 .footer-input {
   width: 320px;
   height: 40px;
@@ -1151,12 +1152,17 @@ img {
 .subscribe {
   color: #ffffff;
   box-sizing: border-box;
-  color: #ffffff;
   margin-bottom: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 396px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
 }
 @media screen and (min-width: 768px) {
   .footer-container {
@@ -1187,15 +1193,29 @@ img {
     display: flex;
     flex-direction: column;
     align-items: baseline;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+  }
+  .footer-subscribe {
+    width: 453px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: center;
   }
   .subscribe {
     color: #ffffff;
-    box-sizing: border-box;
-    color: #ffffff;
+    padding-left: 16px;
+    padding-right: 16px;
     margin-bottom: 16px;
-    display: flex;
+
     flex-direction: column;
-    align-items: center;
+    align-items: baseline;
   }
 }
 
