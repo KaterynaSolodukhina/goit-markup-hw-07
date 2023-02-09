@@ -714,14 +714,11 @@ a.selected {
 @media screen and (min-width: 768px) {
   .descripion {
     padding-top: 96px;
-    padding-left: 16px;
-    padding-right: 16px;
   }
   .description-images {
     display: none;
   }
   .description-list {
-    row-gap: 72px;
     column-gap: 24px;
     display: flex;
     flex-wrap: wrap;
