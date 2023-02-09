@@ -185,7 +185,7 @@ img {
   top: 0;
   left: 0;
   background-color: #ffffff;
-  scroll-behavior: auto;
+  overflow: scroll;
   transform: translateX(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -730,9 +730,12 @@ a.selected {
     flex-basis: calc((100% - 1 * 24px) / 2);
   }
   .description-after-title {
+    font-family: "Roboto";
+    font-style: normal;
     font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    letter-spacing: 0.02em;
     margin-bottom: 72px;
   }
   .description-title {
@@ -775,6 +778,14 @@ a.selected {
     letter-spacing: 0.02em;
     margin-bottom: 8px;
     /*margin-right: 24px;*/
+  }
+  .description-after-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    letter-spacing: 0.02em;
   }
 }
 
@@ -1248,6 +1259,9 @@ a.selected {
   letter-spacing: 0.02em;
 }
 @media screen and (min-width: 768px) {
+  .container .footer-container {
+    width: 552px;
+  }
   .footer-container {
     width: 552px;
     display: flex;
@@ -1272,6 +1286,15 @@ a.selected {
     flex-direction: row;
     align-items: baseline;
     justify-content: center;
+  }
+  .footer-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    letter-spacing: 0.02em;
+    color: #e7e9fc;
   }
   .footer-social {
     box-sizing: border-box;
@@ -1442,11 +1465,11 @@ a.selected {
 
 .modal {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  min-width: 396px;
-  min-height: 586px;
+  min-width: 350px;
+  max-height: 586px;
   background-color: #fcfcfc;
   padding-top: 72px;
   padding-left: 24px;
@@ -1454,6 +1477,13 @@ a.selected {
   padding-bottom: 24px;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (max-width: 450px) {
+  .modal {
+    width: calc(100% - 36px);
+    height: calc(100% - 36px);
+    overflow: scroll;
+  }
 }
 
 .modal-btn-close {
